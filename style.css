@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0wwwwwwww;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+canvas{
+    margin: 0 auto;
+    background-color: white;
+    max-width: 450px;
+    min-width: 350px;
+    width: 100vw;
+}
+
+.controller{
+    position: fixed;
+    bottom: 45%;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#up, #down{
+    font-size: 32px;
+}
